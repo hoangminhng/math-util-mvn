@@ -16,7 +16,7 @@ jobs:
     - name: Set up JDK 19 - Use JDK 19 of USA server. Server Ubuntu from GitHub
       uses: actions/setup-java@v3
       with:
-        java-version: '18'
+        java-version: '20'
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven - Package app into .jar in the server
